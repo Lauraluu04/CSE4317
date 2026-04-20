@@ -1,0 +1,14 @@
+20251102	10:17:51	40bdc46f-1cf5-4214-a81c-c300bbc680a6	SyntaxError: Expected double-quoted property name in JSON at position 49 (line 1 column 50)
+20251102	10:26:14	6f6fbd73-9634-41f1-9403-1b636b159499	SyntaxError: Unexpected token 'm', ..." "email": mlluu@hotm"... is not valid JSON
+20251105	23:54:10	e81e49ff-1253-4da1-86f7-08b4ac94dd1e	ReferenceError: user is not defined
+20251105	23:55:04	8b240ac5-b970-4b85-8a62-015c9dba56b7	TypeError: Cannot convert undefined or null to object
+20251105	23:57:15	5336db21-af95-424c-b181-e3a5c1604106	ReferenceError: role is not defined
+20260124	22:42:30	436aaaba-1adf-4ec6-955f-3d4504f1d373	Error: Not allowed by CORS
+20260124	22:42:36	7063638e-f348-44cf-a8d2-333fc55dab14	Error: Not allowed by CORS
+20260124	22:44:20	d690656b-acc6-4950-a705-7748492728a8	Error: Not allowed by CORS
+20260124	22:44:26	d6d31b75-6f90-4b53-a38f-79db4a6c71a5	Error: Not allowed by CORS
+20260201	20:43:04	1149fd2e-5d3c-472c-9d3b-24034f460bf5	CastError: Cast to ObjectId failed for value "Laura" (type string) at path "_id" for model "Userfoodlog"
+20260405	21:32:18	7b1cd414-64f3-4468-af34-323a9b3c2d3c	ValidationError: User validation failed: email: Path `email` is required.
+20260405	21:34:07	f2990829-476b-4d1b-9b66-b82c84b25359	ValidationError: User validation failed: email: Path `email` is required.
+20260405	21:34:08	73391872-9c05-4ff7-95f9-aaf7c02bae06	ValidationError: User validation failed: email: Path `email` is required.
+20260405	21:40:52	c85623d4-d636-4bbf-a699-14c4f089ef0e	ValidationError: User validation failed: email: Path `email` is required.

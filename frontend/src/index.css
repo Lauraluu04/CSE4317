@@ -1,0 +1,599 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #fff; */
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  /* margin: 0;
+  place-content: center; */
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  /* background-color: blue; */
+  /* background-color: #efefef; */
+  /* margin: 0; */
+}
+
+#root {
+  /* flex-grow: 1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.App {
+  width: 100vw;
+  /* max-width: 800px; */
+  flex-grow: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: dodgerblue; */
+  /* border: 1px solid #333;
+  box-shadow: 0px 0px 15px gray; */
+}
+
+.Login, .Register {
+  width: 100%;
+  flex-grow: 1;
+  /* max-width: 420px;  */
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:center;
+  /* font-size: 0.75rem; */
+  /* margin: 0 auto; */
+  /* padding: 1rem; */
+  /* overflow-y:hidden; */
+  color: whitesmoke;
+  background-color: dodgerblue;
+  /* background-color: #fff; */
+} 
+
+.Login section, .Register section {
+    /* width: 100%; */
+    max-width: 100vw;
+    /* min-height: 425px; */
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 0.7rem;
+    /* padding: 0 20px 0 20px; */
+    /* justify-content: flex-start; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem; */
+    /* background-color: rgba(0,0,0,0.4); */
+    background-color:dodgerblue;
+    color: white;
+}
+
+.Login form, .Register form {
+    /* max-width: 640px;
+    min-height: 385px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    /* flex-grow: 1; */
+    padding-bottom: 0.25rem;
+    /* background-color:dodgerblue; */
+    /* background-color:blue; */
+}
+
+.Header{
+  width: 100%;
+  border: none;
+  margin: 0 0 0 0;
+  /* background-color: #a266f5; */
+  background-color: blue;
+  color:orange;
+  padding: 0 5px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.Header h1 {
+  font-size: 2.5rem;
+  margin-left: 130px;
+}
+
+.AppLogo {
+  width: 100px;
+  height: 60px;
+  /* padding:0 10px; */
+  margin:0;
+  border-radius: 3px;
+}
+
+.UTA {
+  width: 250px;
+  height: 60px;
+  border-radius: 3px;
+}
+
+.Header svg {
+  font-size: 1rem;
+}
+
+.Footer {
+  width: 100%;
+  /* background-color: #a266f5; */
+  /* background-color: dodgerblue; */
+  color:orange;
+  /* padding: 1rem; */
+  display: flex;
+  justify-content:right;
+  align-items:center;
+}
+
+.Footer {
+  padding: 0.75rem;
+  display: flex;
+  place-content: right;
+}
+
+.Nav {
+  width: 100%;
+  /* background-color: #333; */
+  background-color:orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  border: none;
+  margin: 0 0;
+}
+
+.searchForm {
+  width: 40%;
+  padding: 1rem 0 0 0.75rem;
+}
+
+.searchForm input[type="text"] {
+  font-family: 'Open Sans', sans-serif;
+  width: 50%;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.searchForm label {
+  position: absolute;
+  left: -99999px;
+}
+
+.Nav ul {
+  /* color: #fff; */
+  color: blue;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.Nav li {
+  padding: 0.4rem;
+  border-radius: 10px;
+  margin:0.2rem;
+}
+
+.Nav li:hover, 
+.Nav li:focus {
+  padding: 0.4rem;
+}
+
+.Nav li a {
+  /* color: #fff; */
+  color: blue;
+  text-decoration: none;
+}
+
+.Nav li:hover, 
+.Nav li:focus, 
+.Nav li:hover a, 
+.Nav li:focus a  {
+  /* background-color: #eee;
+  color: #333; */
+  background-color: orange;
+  color: blue;
+}
+
+.Nav li:hover a, 
+.Nav li:focus a {
+  cursor: pointer;
+}
+
+.Unauthorized, .Form, .meal, .log, .Home, .NewPost, .PostPage, .About, .FoodLog, .Missing {
+  width: 100%;
+  /* display: flex; */
+  flex-grow: 1;
+  /* padding: 1rem; */
+  overflow-y: auto;
+  background-color: #fff;
+  color:black;
+}
+
+.Admin {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding:0;
+  margin-top: 0;
+  overflow-y: auto;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: #fff;
+  color:black;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 30px;
+}
+
+.users {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1; */
+  /* padding: 1rem; */
+  overflow-y: auto;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #fff; */
+  color:black;
+}
+
+.tools {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* flex-grow: 1; */
+  /* padding: 1rem; */
+  overflow-y: auto;
+  align-items:center;
+  justify-content:space-between;
+  /* background-color: #fff; */
+  color:black;
+}
+
+.tools button{
+    margin-right: 10rem;
+}
+
+.Log {
+  width: 100%;
+  flex-grow: 1;
+  /* padding: 1rem; */
+  overflow-y: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color:black;
+}
+
+.Welcome {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: dodgerblue;
+  color:white;
+}
+
+.Welcome h3 {
+  color:white;
+}
+
+.post {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.Home .post a {
+  text-decoration: none;
+}
+
+.Home .post a, 
+.Home .post a:visited {
+  color: #000;
+}
+
+.post:first-child {
+  margin-top: 0;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.postDate {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.postBody {
+  margin: 1rem 0;
+}
+
+.newPostForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.newPostForm label {
+  margin-top: 1rem;
+}
+
+.newPostForm input[type='text'], 
+.newPostForm textarea {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  outline: none;
+}
+
+.newPostForm textarea {
+  height: 100px;
+}
+
+.newPostForm button {
+  margin-top: 1rem;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.Missing h2, .PostPage h2, 
+.Missing p, .PostPage p {
+  margin-bottom: 1rem;
+}
+
+.Welcome h2 {
+  margin-top: 1rem;
+}
+
+.PostPage button {
+  height: 48px;
+  min-width: 48px;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+.statusMsg {
+  margin-top: 2rem;
+}
+
+@media only screen and (min-width: 610px) {
+  html {
+    font-size: 22px;
+  }
+
+  /* .Header h1 {
+    font-size: 3rem;
+  } */
+
+  /* .Nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
+  .Nav ul {
+    text-align: right;
+  }
+
+  .Nav li:hover, 
+  .Nav li:focus, 
+  .Nav li:hover a, 
+  .Nav li:focus a  {
+    background-color: #eee;
+    color: #333;
+  }
+
+  .searchForm {
+    width: 50%;
+    padding: .5rem 0;
+  }
+ 
+  .searchForm input[type="text"] {
+    margin-left: 0.5rem;
+  }
+
+  .newPostForm textarea {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .Header svg {
+    font-size: 3rem;
+  }
+
+}
+
+.Pic1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.CopyRight {
+  padding:0 500px;
+}
+
+.line {
+    display: inline-block;
+}
+
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.flexGrow {
+    /* background-color: blue; */
+    color:rgb(112, 79, 154);
+    flex-grow: 1;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label {
+  margin-top: 0.25rem;
+}
+
+button {
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  margin-left: 1rem;
+  padding: 0.3rem;
+  background-color: aliceblue;
+  color:darkblue
+}
+
+.Login button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  padding: 0.3rem;
+  background-color: aliceblue;
+  color:darkblue
+}
+
+.Register button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  padding: 0.3rem;
+  background-color: aliceblue;
+  color:darkblue
+}
+
+.flexGrow button{
+  padding: .5rem;
+  margin-top: 1rem;
+  margin-left: 0;
+  margin-bottom: 0;
+  border-width: 3px;
+}
+
+.flexGrow h2{
+  padding: .5rem;
+  margin-top: 1rem;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.form-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.button:focus {
+  outline: 2px solid gold;
+}
+
+.remove-button {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  /* margin-bottom: 1rem; */
+}
