@@ -1,15 +1,22 @@
 .log{
     width:100%;
+    justify-items: center;
 }
 
 .meal {
-    background-color: blue;
+    background-color: #0064b1;
     margin: 10px;
     padding: 10px;
-    width: 70%;
+    min-width: 400px;
+    max-width: 70%;
+    color: white;
 }
 
 #hideResults {
+    display:none;
+}
+
+#hideSelection {
     display:none;
 }
 
@@ -23,4 +30,51 @@
 
 .searchResult:hover {
     text-decoration: underline;
+}
+
+#mealList {
+    width: 100%;
+    justify-items: center;
+}
+
+.mealHeader {
+    position: relative;
+    width: 100%;
+}
+
+.mealName {
+    display: inline;
+    background-color: white;
+    border-radius: 3px;
+    color: #003865;
+    padding: 5px;
+}
+
+.deleteMeal {
+    position: absolute;
+    margin: 0;
+    right: 0;
+}
+
+.food {
+    padding: 10px;
+    display: inline;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    background-color: white;
+}
+
+.food button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    background-color: transparent;
 }

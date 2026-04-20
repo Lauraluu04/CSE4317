@@ -61,8 +61,8 @@ body {
   /* margin: 0 auto; */
   /* padding: 1rem; */
   /* overflow-y:hidden; */
-  color: whitesmoke;
-  background-color: dodgerblue;
+  color: black;
+  background-color: white;
   /* background-color: #fff; */
 } 
 
@@ -101,12 +101,14 @@ body {
   border: none;
   margin: 0 0 0 0;
   /* background-color: #a266f5; */
-  background-color: blue;
-  color:orange;
+  /* background-color: rgb(0, 56, 101); */
+  background-color: #0064b1;
+  color:white;
   padding: 0 5px;
   display: flex;
   justify-content:space-between;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .Header h1 {
@@ -115,17 +117,20 @@ body {
 }
 
 .AppLogo {
-  width: 100px;
-  height: 60px;
+  height: 126px;
   /* padding:0 10px; */
   margin:0;
-  border-radius: 3px;
+  position: absolute;
+  top:0;
+  left:0;
+  
 }
 
 .UTA {
-  width: 250px;
-  height: 60px;
+  width: 300px;
+  height: 70px;
   border-radius: 3px;
+  
 }
 
 .Header svg {
@@ -152,7 +157,7 @@ body {
 .Nav {
   width: 100%;
   /* background-color: #333; */
-  background-color:orange;
+  background-color:#F58025;
   display: flex;
   flex-direction: row;
   justify-content: right;
@@ -183,8 +188,9 @@ body {
 
 .Nav ul {
   /* color: #fff; */
-  color: blue;
+  color: black;
   list-style-type: none;
+  font-weight: bold;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -203,7 +209,8 @@ body {
 
 .Nav li a {
   /* color: #fff; */
-  color: blue;
+  color: black;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -213,8 +220,8 @@ body {
 .Nav li:focus a  {
   /* background-color: #eee;
   color: #333; */
-  background-color: orange;
-  color: blue;
+  background-color: #F58025;
+  color: #003865;
 }
 
 .Nav li:hover a, 
@@ -244,6 +251,91 @@ body {
   /* justify-content: center; */
   background-color: #fff;
   color:black;
+}
+
+.FoodName {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /* padding:0;
+  margin-top: 0; */
+  overflow-y: auto;
+  align-items: flex-start;
+  /* justify-content: center; */
+  background-color: #fff;
+  color:black;
+}
+
+.FoodId {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /* padding:0;
+  margin-top: 0; */
+  overflow-y: auto;
+  align-items: flex-start;
+  /* justify-content: center; */
+  background-color: #fff;
+  color:black;
+}
+
+.FoodId button {
+  margin:0;
+}
+.FoodName button {
+  margin:0;
+}
+
+.foodResults {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /* padding:0;
+  margin-top: 0; */
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.foodResults text {
+  width: 200px;
+  margin-left: 1rem;
+}
+
+.split-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-left: 200px;
+  gap: 20px;
+}
+
+.split-container-FoodID {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: row nowrap;
+  margin: 0.5rem;
+}
+
+.split-container-FoodName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: row nowrap;
+  margin: 0.5rem;
+}
+
+#food_ID {
+  width: 150px;
+}
+
+#food_Name {
+  width: 150px;
 }
 
 table {
@@ -297,12 +389,12 @@ table {
   flex-grow: 1;
   padding: 1rem;
   overflow-y: auto;
-  background-color: dodgerblue;
-  color:white;
+  background-color: white;
+  color:black;
 }
 
 .Welcome h3 {
-  color:white;
+  color:black;
 }
 
 .post {
@@ -450,6 +542,7 @@ table {
   width: 200px;
   height: 200px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 255, 0.144), 0 6px 20px 0 rgba(0, 0, 255, 0.226);
 }
 .CopyRight {
   padding:0 500px;
@@ -596,4 +689,8 @@ button {
 ul {
   list-style-type: none;
   /* margin-bottom: 1rem; */
+}
+
+a:link {
+  text-decoration: none;
 }
