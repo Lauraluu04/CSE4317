@@ -1,42 +1,42 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+const foodIDSchema = new Schema({
+    food_id:{
+        type:Number,
+        required:true
+    },
+    serving_id:{
+        type: Number,
+        required:true
+    },
+    quantity: {
+        type: Number,
+        default: 1
+    }
+});
+
+const mealSchema = new Schema({
+    meal_type: {
+        type: String,
+        required: true
+    },
+    foodIDs: [foodIDSchema], //Array of foodIDs
+});
 const userfoodlogSchema = new Schema({
     username: {
         type: String,
         required: true
-    },
-    creationDate: {
-        type: Date,
-        default: Date.now
     },    
     calorieGoal: {
-        type: String,
-        default: 2000
-    },        
+        type: Number,
+        required: true
+    },
     logDate: {
-        type: Date
+        type: Date,
+        default: Date.now
     },
-    mealName: {
-        type: String,
-        default: "Breakfast"
-    },
-    foodName: {
-        type: String,
-        required: true
-    },
-    quantityValue: {
-        type: Number,
-        required: true
-    },
-    quantityUnits: {
-        type: Number,
-        required: true
-    },
-    calories: {
-        type: Number,
-        required: true
-    },
+    meals: [mealSchema], // Array of meals
 })
 
 module.exports = mongoose.model('Userfoodlog',userfoodlogSchema);
