@@ -8,7 +8,6 @@ const FoodId = () => {
     const [foodId, setfoodId] = useState('1234');
     const {auth} = useAuth();
     const username = auth?.user
-//    const [errMsg, setErrMsg] = useState('');
     const {errMsg, setErrMsg} = useState('Nutrients are essential substances obtained from food that provide energy, build structures, and regulate bodily functions. They are categorized into macronutrients (carbohydrates, protein, fats) and micronutrients (vitamins, minerals).');
     const errRef = useRef();
     const [foodServices, setfoodServices] = useState();

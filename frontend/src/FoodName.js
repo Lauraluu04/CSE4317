@@ -74,7 +74,7 @@ const FoodId = () => {
                             ))}
                         </tbody>
                     </table>
-                ) : <center><p></p></center>
+                ) : <center><p>{errMsg}</p></center>
             }
             </div>
         </main>

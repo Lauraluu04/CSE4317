@@ -5,7 +5,7 @@ const About = () => {
     <main className='About'>
         <h2>About</h2>
         <p style={{ marginTop: '1rem' }}>
-          Calorie Counter is a project in the Senior Design courses 4316 and 4317.<br/>
+          Calorie Counter is a project in the Senior Design courses 4316 and 4317.<br/><br/>
           Team Members:<br/>
           Conar Bailey<br/>
           Sheena Buwemi<br/>
