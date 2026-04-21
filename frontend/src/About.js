@@ -12,7 +12,7 @@ const About = () => {
           Marcia Kimenyembo<br/>
           Laura Luu<br/>
           Mitali Mayani<br/>
-          </p>
+        </p><br/><br/>
         <a href="https://platform.fatsecret.com">
             <img alt="Nutrition information provided by fatsecret Platform API" src="https://platform.fatsecret.com/api/static/images/powered_by_fatsecret_horizontal_brand.svg" border="0"/>
         </a>        
