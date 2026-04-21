@@ -344,7 +344,7 @@ table {
 }
 
 .users {
-  width: 50%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   /* flex-grow: 1; */
@@ -693,4 +693,18 @@ ul {
 
 a:link {
   text-decoration: none;
+}
+
+.split-container-Admin{
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+  flex-grow: row nowrap;
+  margin: 0.25rem;
+}
+
+.Delete_button {
+  margin-left: 500px;
 }

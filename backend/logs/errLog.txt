@@ -12,3 +12,8 @@
 20260405	21:34:07	f2990829-476b-4d1b-9b66-b82c84b25359	ValidationError: User validation failed: email: Path `email` is required.
 20260405	21:34:08	73391872-9c05-4ff7-95f9-aaf7c02bae06	ValidationError: User validation failed: email: Path `email` is required.
 20260405	21:40:52	c85623d4-d636-4bbf-a699-14c4f089ef0e	ValidationError: User validation failed: email: Path `email` is required.
+20260420	21:51:13	5545bd77-b5e7-40f8-aadc-a5d106bc1c71	Error: Not allowed by CORS
+20260420	21:54:37	9afbbbd9-96d9-41db-85a1-cb443931a23f	Error: Not allowed by CORS
+20260420	21:56:04	f32f8188-30a4-4881-8c1e-b4b9c3948b82	Error: Not allowed by CORS
+20260420	21:56:05	eee2a730-c1cc-4e7c-8684-cdc306144d5b	Error: Not allowed by CORS
+20260420	21:56:23	4bf58fc3-1f14-4873-a46f-8d1b9474016c	Error: Not allowed by CORS
