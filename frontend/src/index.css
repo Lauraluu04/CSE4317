@@ -377,8 +377,8 @@ table {
   /* flex-grow: 1; */
   /* padding: 1rem; */
   overflow-y: auto;
-  align-items:center;
-  justify-content:space-between;
+  /* align-items:center; */
+  /* justify-content:space-between; */
   /* background-color: #fff; */
   color:black;
 }
@@ -719,6 +719,43 @@ a:link {
   margin: 0.25rem;
 }
 
-.Delete_button {
-  margin-left: 500px;
+#id {
+  width: 325px;
 }
+
+p {
+  text-align: center;
+}
+.deleteButton {
+  margin-top: 0.25rem;
+} 
+
+.users {
+  width: 70%;
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+  /* flex-grow: 1; */
+  padding: 0.5rem;
+  overflow-y: auto;
+  /* background-color:aliceblue; */
+  color:black;
+
+}
+
+.deleteUser {
+  width: 20%;
+  height:40vh;
+  display:flex;
+  flex-direction: column;
+  /* align-items:center; */
+  /* justify-content:center; */
+  flex-grow: 1;
+  /* padding: 1rem; */
+  overflow-y: auto;
+  /* background-color:aliceblue; */
+  color:black;
+
+}
+
+

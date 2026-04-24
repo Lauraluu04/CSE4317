@@ -1082,3 +1082,15 @@
 20260420	22:47:41	a76f35f7-e33f-43f1-ab75-a919da76e380	POST	http://localhost:3000	/fatSecret
 20260420	22:48:53	1fe85932-e540-46a0-874e-4b1e980a0981	OPTIONS	http://localhost:3000	/fatSecret
 20260420	22:48:53	7f48239e-779d-429e-bb7c-73bd82172e4f	POST	http://localhost:3000	/fatSecret
+20260423	23:02:59	b6a6060e-7a6d-4c92-b939-52c5503548a1	OPTIONS	http://localhost:3000	/auth
+20260423	23:02:59	5e8fb44e-c0c9-4577-b9c4-7e771b580939	POST	http://localhost:3000	/auth
+20260423	23:03:00	7ba0b962-ecaf-46aa-baa5-af39d53b6cc6	GET	http://localhost:3000	/foodlog/Laura
+20260423	23:03:00	1d40b47d-444e-4586-89f4-c4f20e20920e	GET	http://localhost:3000	/foodlog/Laura
+20260423	23:03:03	66f1ebb9-31c7-4c58-9651-e49a1c1604cd	OPTIONS	http://localhost:3000	/users
+20260423	23:03:03	743607ac-3a70-41e5-81ab-6f49d196cb7b	GET	http://localhost:3000	/users
+20260423	23:04:52	b5f558e0-71fd-4c6e-9ddb-4854841765f9	OPTIONS	http://localhost:3000	/users
+20260423	23:04:52	c75e7e4c-c109-4dc7-bb5c-cbd4caf613cf	DELETE	http://localhost:3000	/users
+20260423	23:05:03	a22b68d2-4435-447f-a732-c09e15655a4e	OPTIONS	http://localhost:3000	/users
+20260423	23:05:03	d67635ce-973c-417e-81ae-4bf27cad3396	DELETE	http://localhost:3000	/users
+20260423	23:05:08	7206d4f2-3c78-430d-8c40-aaed2b407c9c	OPTIONS	http://localhost:3000	/users
+20260423	23:05:08	daa4b2c9-c119-42c3-98be-5f23c5036757	GET	http://localhost:3000	/users
